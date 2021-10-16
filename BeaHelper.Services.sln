@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeaHelper.Service.VerificaEventoRecorrente", "BeaHelper.Service.VerificaEventoRecorrente\BeaHelper.Service.VerificaEventoRecorrente.csproj", "{12F3595D-69A8-4643-8FDD-3033C89E3C8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{689520F9-6905-4515-933B-F61CA9D26D08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{34818665-59B2-4C04-8841-6BE40722C599}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BD", "BD", "{A8C95B71-473D-48BC-9C42-81A8C8E59D92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeaHelper.BLL.BD", "BeaHelper.BLL.BD\BeaHelper.BLL.BD.csproj", "{08938445-F944-4C52-844E-309D458ADAAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12F3595D-69A8-4643-8FDD-3033C89E3C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F3595D-69A8-4643-8FDD-3033C89E3C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F3595D-69A8-4643-8FDD-3033C89E3C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F3595D-69A8-4643-8FDD-3033C89E3C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08938445-F944-4C52-844E-309D458ADAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08938445-F944-4C52-844E-309D458ADAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08938445-F944-4C52-844E-309D458ADAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08938445-F944-4C52-844E-309D458ADAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12F3595D-69A8-4643-8FDD-3033C89E3C8E} = {689520F9-6905-4515-933B-F61CA9D26D08}
+		{A8C95B71-473D-48BC-9C42-81A8C8E59D92} = {34818665-59B2-4C04-8841-6BE40722C599}
+		{08938445-F944-4C52-844E-309D458ADAAA} = {A8C95B71-473D-48BC-9C42-81A8C8E59D92}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {501BC831-9068-4CF8-8DD0-822C049EF448}
+	EndGlobalSection
+EndGlobal
